@@ -6,11 +6,12 @@ int main(){
 
     ios::sync_with_stdio(false);
 
-    int a, b;
+    int a, b, c, d;
+    cin >> a >> b >> c >>d;
 
-    cin >> a >> b;
+    a+=(b+c+d - 3);
+    cout << a << "\n";
 
-    cout << "SOMA = " << (a+b) << "\n";
 
     return 0;
 }
